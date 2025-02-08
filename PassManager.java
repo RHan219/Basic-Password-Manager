@@ -8,13 +8,13 @@ import java.security.spec.KeySpec;
 import java.util.Base64;
 import java.util.Scanner;
 
-public class PassMan2 {
+public class PassManager {
     private Cipher cipher;
     private SecretKeySpec key;
     private String keyString;
 
     public static void main(String[] args) throws Exception {
-        PassMan2 passmanager = new PassMan2();
+        PassManager passmanager = new PassManager();
         passmanager.managerPrompt();
     }
 
